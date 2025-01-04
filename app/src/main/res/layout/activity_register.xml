@@ -1,0 +1,80 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/gradient">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="0dp"
+        android:text="REGISTER"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/poppins_bold_italic"
+        android:textAlignment="center"
+        android:textSize="50dp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_edittext"
+        android:textColorHint="#FFFFFF"
+        android:textCursorDrawable="@drawable/cursor"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_edittext"
+        android:textColorHint="#FFFFFF"
+        android:textCursorDrawable="@drawable/cursor"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/etConfirmPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Retype Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_edittext"
+        android:textColorHint="#FFFFFF"
+        android:textCursorDrawable="@drawable/cursor"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/well"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/nunitomedium"
+        android:padding="12dp" />
+    <TextView
+        android:id="@+id/btnGoToLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sudah punya akun? Login"
+        android:fontFamily="@font/nunitomedium"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:padding="12dp" />
+</LinearLayout>

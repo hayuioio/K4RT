@@ -1,0 +1,13 @@
+<resources>
+    <!-- Popup Menu Style -->
+    <style name="PopupMenuStyle" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@drawable/menu_background</item>
+        <item name="android:itemTextAppearance">@style/PopupMenuTextStyle</item>
+    </style>
+
+    <!-- Popup Menu Text Style -->
+    <style name="PopupMenuTextStyle" parent="TextAppearance.AppCompat.Menu">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+</resources>

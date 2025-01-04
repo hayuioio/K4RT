@@ -1,0 +1,17 @@
+<!-- res/drawable/fab_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Stroke putih -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FFFFFF"/> <!-- Warna stroke putih -->
+        </shape>
+    </item>
+
+    <!-- Latar belakang FAB dengan warna ungu -->
+    <item android:insetLeft="2dp" android:insetTop="2dp"
+        android:insetRight="2dp" android:insetBottom="2dp">
+        <shape android:shape="oval">
+            <solid android:color="@color/purple"/> <!-- Warna FAB -->
+        </shape>
+    </item>
+</layer-list>

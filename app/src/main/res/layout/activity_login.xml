@@ -1,0 +1,69 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/gradient">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="200dp"
+        android:textSize="50dp"
+        android:fontFamily="@font/poppins_bold_italic"
+        android:textColor="#FFFFFF"
+        android:text="LOGIN"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        android:textCursorDrawable="@drawable/cursor"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_edittext"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textCursorDrawable="@drawable/cursor"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_edittext"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/well"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/nunitomedium"
+        android:padding="12dp" />
+
+    <TextView
+        android:id="@+id/btnGoToRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Belum punya akun? Daftar"
+        android:fontFamily="@font/nunitomedium"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:padding="12dp" />
+</LinearLayout>

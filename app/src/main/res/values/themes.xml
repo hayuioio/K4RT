@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Tema dengan status bar transparan -->
+    <style name="Theme.TransparentStatusBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Membuat status bar transparan -->
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <!-- Mengatur status bar agar konten tampil di belakangnya -->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:fitsSystemWindows">false</item>
+    </style>
+
+</resources>

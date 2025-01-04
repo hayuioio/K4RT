@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple">#6F60F5</color>
+    <color name="hintcolor">#5F5B5B</color>
+    <color name="button_background">#FFFFFF</color>
+    <color name="checkbox_tint_color">#FFFFFF</color>
+    <color name="default_text_color">#FFFFFF</color>
+
+</resources>

@@ -1,0 +1,59 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tws">
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="K4RT"
+        android:fontFamily="@font/poppins_bold_italic"
+        android:textColor="#FFFFFF"
+        android:textSize="26sp"
+        android:layout_marginTop="15dp"
+        android:padding="20dp"
+        android:paddingTop="80dp" />
+
+    <TextView
+        android:id="@+id/tvNoItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:padding="16dp"
+        android:text="Tidak ada item"
+        android:textSize="18sp"
+        android:textColor="#808080"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvItems"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvHeader"
+        android:padding="8dp"
+        tools:listitem="@layout/item_list" />
+
+    <ImageView
+        android:id="@+id/fabAdd"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/plus"
+        android:contentDescription="Tambah Item"
+        android:background="@drawable/background_square" />
+
+    <ImageView
+        android:id="@+id/btnLogout"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="300dp"
+        android:src="@drawable/ic_logout" />
+
+</RelativeLayout>
